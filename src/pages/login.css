@@ -1,0 +1,59 @@
+.loginpage{
+    margin-top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f6f8;
+}
+.container{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    border-radius: 12px;
+    
+}
+
+.left {
+    width: 55%;
+    background: linear-gradient(135deg, #1e6bb8,#3a8dde);
+    color: white;
+    padding: 40px;
+}
+
+.left h1{
+    margin-bottom: 30px;
+}
+
+.right{
+    width: 45%;
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right h2{
+    margin-bottom: 20px;
+}
+
+.right input{
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.right button{
+    padding: 10px;
+    background:#1e6bb8;
+    color:white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 14px;
+}
+
+.right button:hover{
+    background: #155a9c;
+}
